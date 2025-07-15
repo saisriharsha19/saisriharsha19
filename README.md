@@ -155,8 +155,6 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saisriharsha19&show_icons=true&theme=radical&hide_border=true&count_private=true)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saisriharsha19&layout=compact&theme=radical&hide_border=true)
 
 </div>
