@@ -1,100 +1,95 @@
-<svg width="1000" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background -->
-  <rect width="1000" height="180" fill="#0d1117"/>
+  <rect width="1000" height="240" fill="#0d1117"/>
 
   <!-- Card -->
-  <rect x="40" y="26" rx="18" ry="18" width="920" height="128"
+  <rect x="40" y="24" rx="20" ry="20" width="920" height="192"
         fill="#0f1623" stroke="#243042"/>
 
-  <!-- Divider -->
-  <line x1="70" y1="68" x2="930" y2="68" stroke="#243042"/>
+  <!-- Top divider -->
+  <line x1="70" y1="70" x2="930" y2="70" stroke="#243042"/>
 
-  <!-- Name -->
-  <text x="80" y="56"
+  <!-- LEFT COLUMN : NAME -->
+  <text x="80" y="54"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="16" font-weight="700" fill="#e6edf3">
+        font-size="18" font-weight="700" fill="#e6edf3">
     Sai Sri Harsha Guddati
   </text>
 
-  <!-- Subtitle -->
-  <text x="80" y="92"
+  <text x="80" y="96"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="13" fill="#9aa7b5">
-    Backend • Infrastructure • AI Platforms • Performance • Reliability
+        font-size="14" fill="#9aa7b5">
+    Backend & Infrastructure Engineer
   </text>
 
-  <!-- Location -->
-  <text x="80" y="118"
+  <text x="80" y="120"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="13" fill="#8b949e">
+    AI Platforms · Distributed Systems
+  </text>
+
+  <text x="80" y="144"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
         font-size="12" fill="#8b949e">
     Gainesville, Florida · 2026
   </text>
 
-  <!-- Portfolio -->
-  <a href="https://saisriharsha.me" target="_blank">
-    <g transform="translate(560,86)" cursor="pointer">
-      <rect rx="14" ry="14" width="105" height="28"
-            fill="#0b1220" stroke="#243042"/>
-      <circle cx="16" cy="14" r="7" fill="none"
-              stroke="#2f81f7" stroke-width="1.6"/>
-      <line x1="9" y1="14" x2="23" y2="14"
-            stroke="#2f81f7" stroke-width="1.6"/>
-      <path d="M16 7 C13 10,13 18,16 21"
-            fill="none" stroke="#2f81f7" stroke-width="1.6"/>
-      <path d="M16 7 C19 10,19 18,16 21"
-            fill="none" stroke="#2f81f7" stroke-width="1.6"/>
-      <text x="32" y="19"
-            font-family="system-ui, -apple-system, Segoe UI, Roboto"
-            font-size="12" fill="#c9d1d9">
-        Portfolio
-      </text>
-    </g>
-  </a>
+  <!-- CENTER COLUMN : LINKS (heading style same as name) -->
+  <text x="500" y="54" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="18" font-weight="700" fill="#e6edf3">
+    Links
+  </text>
 
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/sai-sri-harsha-guddati" target="_blank">
-    <g transform="translate(676,86)" cursor="pointer">
-      <rect rx="14" ry="14" width="108" height="28"
-            fill="#0b1220" stroke="#243042"/>
-      <path d="M13 16 C11 16,10 15,10 13 C10 11,11 10,13 10 L17 10 C19 10,20 11,20 13"
-            fill="none" stroke="#2f81f7" stroke-width="1.6"
-            stroke-linecap="round"/>
-      <path d="M15 12 C17 12,18 13,18 15 C18 17,17 18,15 18 L11 18 C9 18,8 17,8 15"
-            fill="none" stroke="#2f81f7" stroke-width="1.6"
-            stroke-linecap="round"/>
-      <text x="32" y="19"
-            font-family="system-ui, -apple-system, Segoe UI, Roboto"
-            font-size="12" fill="#c9d1d9">
-        LinkedIn
-      </text>
-    </g>
-  </a>
+  <text x="500" y="100" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="13" fill="#2f81f7">
+    saisriharsha.me
+  </text>
 
-  <!-- GitHub -->
-  <a href="https://github.com/saisriharsha19" target="_blank">
-    <g transform="translate(796,86)" cursor="pointer">
-      <rect rx="14" ry="14" width="92" height="28"
-            fill="#0b1220" stroke="#243042"/>
-      <path d="M12 10 L7 14 L12 18"
-            fill="none" stroke="#2f81f7" stroke-width="1.7"
-            stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M20 10 L25 14 L20 18"
-            fill="none" stroke="#2f81f7" stroke-width="1.7"
-            stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="34" y="19"
-            font-family="system-ui, -apple-system, Segoe UI, Roboto"
-            font-size="12" fill="#c9d1d9">
-        GitHub
-      </text>
-    </g>
-  </a>
+  <text x="500" y="124" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="13" fill="#2f81f7">
+    linkedin.com/in/sai-sri-harsha-guddati
+  </text>
 
-  <!-- Tagline -->
-  <text x="500" y="144" text-anchor="middle"
+  <text x="500" y="148" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="13" fill="#2f81f7">
+    github.com/saisriharsha19
+  </text>
+
+  <!-- RIGHT COLUMN : FOCUS (heading style same as name) -->
+  <text x="920" y="54" text-anchor="end"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="18" font-weight="700" fill="#e6edf3">
+    Focus
+  </text>
+
+  <text x="920" y="100" text-anchor="end"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="13" fill="#8b949e">
+    Reliability
+  </text>
+
+  <text x="920" y="124" text-anchor="end"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="13" fill="#8b949e">
+    Performance
+  </text>
+
+  <text x="920" y="148" text-anchor="end"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto"
+        font-size="13" fill="#8b949e">
+    Operability
+  </text>
+
+  <!-- Bottom closing -->
+  <text x="500" y="200" text-anchor="middle"
         font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
         font-size="12" fill="#7d8590">
-    Building systems for uptime, latency, and long-term maintainability
+    Engineering systems that hold up under real load
   </text>
 
 </svg>
