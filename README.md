@@ -1,166 +1,158 @@
 <div align="center">
 
-<svg width="850" height="220" viewBox="0 0 850 220" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#161b22" />
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#60a5fa" />
-      <stop offset="50%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#60a5fa" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
+# Sai Sri Harsha Guddati
 
-  <rect width="850" height="220" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
-  
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-width="0.5" opacity="0.3"/>
-  </pattern>
-  <rect width="848" height="218" x="1" y="1" rx="12" fill="url(#grid)" opacity="0.5"/>
+### Backend Systems Engineer · AI Infrastructure · Distributed Platforms
 
-  <text x="425" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="42" fill="#f0f6fc" letter-spacing="-0.5">
-    Sai Sri Harsha Guddati
-  </text>
+Master's in Computer Science @ University of Florida · GPA: 3.9/4.0
 
-  <text x="425" y="130" text-anchor="middle" font-family="'SF Mono', 'Consolas', 'Menlo', monospace" font-weight="400" font-size="14" fill="url(#textGrad)" letter-spacing="1.2">
-    BACKEND ENGINEERING · DISTRIBUTED SYSTEMS · AI INFRASTRUCTURE
-  </text>
-
-  <g transform="translate(365, 160)">
-    <rect x="0" y="0" width="120" height="24" rx="12" fill="#1f6feb" opacity="0.1"/>
-    <rect x="0" y="0" width="120" height="24" rx="12" stroke="#1f6feb" stroke-width="1" opacity="0.3"/>
-    <text x="60" y="16" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#58a6ff">Based in Florida, US</text>
-  </g>
-</svg>
-
-<br/>
-
-<a href="https://saisriharsha.me">
-  <img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=safari&logoColor=58a6ff&labelColor=0d1117" height="30" alt="Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/sai-sri-harsha-guddati">
-  <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117" height="30" alt="LinkedIn"/>
-</a>
-<a href="mailto:saisriharshaguddati1@gmail.com">
-  <img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=58a6ff&labelColor=0d1117" height="30" alt="Email"/>
-</a>
-<a href="https://github.com/saisriharsha19">
-  <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=0d1117" height="30" alt="GitHub"/>
-</a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=safari&logoColor=white)](https://saisriharsha.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-sri-harsha-guddati)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:saisriharshaguddati1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saisriharsha19)
 
 </div>
 
-<br/>
+---
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> Professional Summary</h3>
+## About
 
-> **Master of Science in Computer Science** at the **University of Florida** (GPA: 3.9/4.0).
-> 
-> I specialize in architecting **distributed backend systems**, optimizing high-volume **data infrastructure**, and building **production-grade AI platforms**. My engineering philosophy centers on observability, type safety, and scalable simplicity.
+Building production systems that scale. My focus areas include **distributed backend architectures**, **LLM infrastructure and RAG pipelines**, **performance optimization with deep observability**, and **cloud-native deployment patterns**.
 
-<br/>
+I prioritize correctness, debuggability, and long-term maintainability over flashy demos.
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="25" height="25" /> Professional Experience</h3>
+---
+
+## Professional Experience
+
+### University of Florida IT
+**AI & Platform Engineer Intern** · *May 2025 - Dec 2025*
+
+- Serving **30,000+ active users** with production AI infrastructure
+- Reduced **P95 latency from 800ms → 480ms** through systematic optimization
+- Achieved **40% reduction in LLM API spend** via intelligent caching
+- Completed **Kubernetes migration** with zero-downtime deployment
+
+**Tech Stack:** FastAPI · Next.js · Celery · Redis · PostgreSQL · Prometheus · Kubernetes
+
+### Tata Consultancy Services
+**Software Development Engineer** · *Aug 2022 - Dec 2023*
+
+- Built semantic search across **10M+ documents** using vector databases
+- Maintained **zero Sev-1 incidents** for 12 consecutive months
+- Reduced query latency by **50%** through database optimization
+- Owned full **CI/CD pipeline** across Dev/QA/Prod environments
+
+**Tech Stack:** Python · Azure · Docker · Kubernetes · PostgreSQL · Pinecone
+
+---
+
+## Technical Projects
+
+### **Vision AI** — RAG-Driven LLM Platform
+Modular FastAPI services with async execution, Pinecone vector search, LangChain pipelines, and YOLO-based object detection.
+
+`FastAPI` `Pinecone` `LangChain` `Computer Vision`
+
+### **Compiler Design** — Delphi/Pascal Interpreter
+Complete lexer and parser using ANTLR with AST-based execution engine, lexical scoping, and O(1) symbol table lookups.
+
+`ANTLR` `Java` `Compilers` `Abstract Syntax Trees`
+
+### **Distributed Cache System**
+Fault-tolerant caching layer with consistent hashing across 5-node Redis cluster, achieving 99.95% availability.
+
+`Redis` `Docker` `Distributed Systems` `High Availability`
+
+### **Website Backend** — Production API Services
+FastAPI-based REST services with secure routing, clean architecture, and low-latency design patterns.
+
+`FastAPI` `REST` `Authentication` `PostgreSQL`
+
+---
+
+## Tech Stack
+
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Backend & Frameworks**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**Data & Infrastructure**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+**Cloud & DevOps**  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+
+**AI & ML**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
+
+**Observability**  
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+---
+
+## Engineering Principles
 
 <table>
-  <tr>
-    <td width="60%" valign="top">
-      <h4 style="margin-bottom: 5px;">University of Florida, Information Technology</h4>
-      <p style="color: #8b949e; margin-top: 0;"><strong>Software Engineer Intern</strong> • <em>May 2025 – Dec 2025</em></p>
-      <ul>
-        <li><strong>Scale:</strong> Architected backend services handling AI inference for <strong>30,000+ active users</strong>.</li>
-        <li><strong>Optimization:</strong> Reduced API P95 latency from <strong>800ms to 480ms</strong> via custom Prometheus metrics and connection pooling.</li>
-        <li><strong>Infrastructure:</strong> Migrated legacy services to <strong>Kubernetes</strong>; authored Helm charts reducing deployment time by 60%.</li>
-        <li><strong>Cost Efficiency:</strong> Designed Redis-based RAG caching, reducing external LLM API spend by <strong>40%</strong>.</li>
-      </ul>
-      <p><code>FastAPI</code> <code>Celery</code> <code>Kubernetes</code> <code>PostgreSQL</code> <code>Redis</code></p>
-    </td>
-    <td width="40%" valign="top">
-      <h4 style="margin-bottom: 5px;">Tata Consultancy Services</h4>
-      <p style="color: #8b949e; margin-top: 0;"><strong>Software Development Engineer</strong> • <em>Aug 2022 – Dec 2023</em></p>
-      <ul>
-        <li><strong>Search Engine:</strong> Developed semantic search on Azure for <strong>10M+ enterprise documents</strong> using Pinecone & Flask.</li>
-        <li><strong>Reliability:</strong> Maintained zero Sev-1 production incidents for 12 months via automated CI/CD gates.</li>
-        <li><strong>Database:</strong> Optimized PostgreSQL queries via composite indexing, cutting latency by <strong>50%</strong>.</li>
-      </ul>
-      <p><code>Python</code> <code>Azure</code> <code>Docker</code> <code>CI/CD</code></p>
-    </td>
-  </tr>
+<tr>
+<td align="center" width="25%">
+<h3>📐</h3>
+<strong>Measure First</strong><br/>
+<sub>Optimize second</sub>
+</td>
+<td align="center" width="25%">
+<h3>🛡️</h3>
+<strong>Reliability</strong><br/>
+<sub>Beats cleverness</sub>
+</td>
+<td align="center" width="25%">
+<h3>📦</h3>
+<strong>Simplicity</strong><br/>
+<sub>Scales better</sub>
+</td>
+<td align="center" width="25%">
+<h3>🚀</h3>
+<strong>Production</strong><br/>
+<sub>Experience matters</sub>
+</td>
+</tr>
 </table>
 
-<br/>
-
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="25" height="25" /> Technical Projects</h3>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Distributed Cache w/ Consistent Hashing</h4>
-      <p>Designed a fault-tolerant caching layer across a 5-node Redis cluster.</p>
-      <ul>
-        <li><strong>Resilience:</strong> Implemented gossip-style health checks sustaining <strong>99.95% availability</strong> during node failures.</li>
-        <li><strong>Scaling:</strong> Used consistent hashing to minimize key redistribution during horizontal scaling.</li>
-      </ul>
-      <p><code>Python</code> <code>Redis</code> <code>Docker</code> <code>System Design</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Delphi Pascal Compiler</h4>
-      <p>Built a comprehensive language interpreter with manual memory management.</p>
-      <ul>
-        <li><strong>Performance:</strong> Engineered an O(1) hash map-backed symbol table for rapid identifier lookup.</li>
-        <li><strong>Complexity:</strong> Implemented AST-based execution, lexical scoping, and nested control flow parsing.</li>
-      </ul>
-      <p><code>Java</code> <code>ANTLR</code> <code>Compiler Design</code></p>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="25" height="25" /> Technical Arsenal</h3>
-
-<table width="100%">
-  <tr>
-    <td width="20%" align="center"><strong>Languages</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=python,java,cpp,ts,bash&theme=dark" alt="Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center"><strong>Backend</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=fastapi,flask,spring,nodejs,kafka,rabbitmq&theme=dark" alt="Backend" />
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center"><strong>Cloud & DevOps</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,terraform,githubactions&theme=dark" alt="DevOps" />
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center"><strong>Data & AI</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,pytorch,tensorflow,grafana&theme=dark" alt="Data" />
-    </td>
-  </tr>
-</table>
-
-<br/>
+---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saisriharsha19&show_icons=true&theme=react&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&hide_border=true" height="150" alt="Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saisriharsha19&theme=react&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&hide_border=true" height="150" alt="Streak" />
-  
-  <br/><br/>
-  
-  <p style="color: #8b949e; font-size: 12px;">
-    Designed by Sai Sri Harsha Guddati · 2025
-  </p>
+
+## GitHub Statistics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saisriharsha19&show_icons=true&theme=default&hide_border=true&title_color=000&icon_color=0066CC&text_color=333&bg_color=ffffff)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=saisriharsha19&theme=default&hide_border=true&ring=0066CC&fire=0066CC&currStreakLabel=333&background=ffffff&stroke=dddddd)
+
+---
+
+**Building systems that work at scale · Open to opportunities**
+
+![Profile Views](https://komarev.com/ghpvc/?username=saisriharsha19&style=flat-square&color=0066CC&label=Profile+Views)
+
 </div>
