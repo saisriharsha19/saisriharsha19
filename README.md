@@ -8,8 +8,12 @@
 <a href="mailto:saisriharshaguddati1@gmail.com">Email</a> ·
 <a href="https://github.com/saisriharsha19">GitHub</a>
 </div>
+
 ---
+
 ![body](./body.svg)
+
 ---
+
 ![footer](./footer.svg)
 
