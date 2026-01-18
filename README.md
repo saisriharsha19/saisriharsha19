@@ -1,334 +1,166 @@
 <div align="center">
 
-<!-- CUSTOM HEADER SVG -->
-<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="220" viewBox="0 0 850 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#161b22"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff"/>
-      <stop offset="50%" style="stop-color:#1f6feb"/>
-      <stop offset="100%" style="stop-color:#58a6ff"/>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
     </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
   </defs>
-  <rect width="800" height="200" fill="url(#headerGrad)" rx="8"/>
+
+  <rect width="850" height="220" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
   
-  <!-- Geometric accent lines -->
-  <line x1="50" y1="180" x2="750" y2="180" stroke="url(#accentGrad)" stroke-width="1" opacity="0.4"/>
-  <line x1="50" y1="20" x2="200" y2="20" stroke="url(#accentGrad)" stroke-width="2"/>
-  <line x1="600" y1="20" x2="750" y2="20" stroke="url(#accentGrad)" stroke-width="2"/>
-  
-  <!-- Corner accents -->
-  <path d="M50 40 L50 20 L70 20" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M750 40 L750 20 L730 20" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M50 160 L50 180 L70 180" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M750 160 L750 180 L730 180" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  
-  <!-- Name -->
-  <text x="400" y="85" text-anchor="middle" fill="#e6edf3" font-family="SF Pro Display, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="36" font-weight="600" letter-spacing="-1">Sai Sri Harsha Guddati</text>
-  
-  <!-- Tagline -->
-  <text x="400" y="120" text-anchor="middle" fill="#8b949e" font-family="SF Mono, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="2">BACKEND SYSTEMS  ·  AI INFRASTRUCTURE  ·  DISTRIBUTED PLATFORMS</text>
-  
-  <!-- Decorative dots -->
-  <circle cx="100" cy="100" r="2" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="700" cy="100" r="2" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="120" cy="100" r="1" fill="#58a6ff" opacity="0.3"/>
-  <circle cx="680" cy="100" r="1" fill="#58a6ff" opacity="0.3"/>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="848" height="218" x="1" y="1" rx="12" fill="url(#grid)" opacity="0.5"/>
+
+  <text x="425" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="42" fill="#f0f6fc" letter-spacing="-0.5">
+    Sai Sri Harsha Guddati
+  </text>
+
+  <text x="425" y="130" text-anchor="middle" font-family="'SF Mono', 'Consolas', 'Menlo', monospace" font-weight="400" font-size="14" fill="url(#textGrad)" letter-spacing="1.2">
+    BACKEND ENGINEERING · DISTRIBUTED SYSTEMS · AI INFRASTRUCTURE
+  </text>
+
+  <g transform="translate(365, 160)">
+    <rect x="0" y="0" width="120" height="24" rx="12" fill="#1f6feb" opacity="0.1"/>
+    <rect x="0" y="0" width="120" height="24" rx="12" stroke="#1f6feb" stroke-width="1" opacity="0.3"/>
+    <text x="60" y="16" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#58a6ff">Based in Florida, US</text>
+  </g>
 </svg>
 
 <br/>
 
-<!-- SOCIAL LINKS -->
-<a href="https://saisriharsha.me"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=safari&logoColor=58a6ff" alt="Portfolio"/></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/sai-sri-harsha-guddati"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff" alt="LinkedIn"/></a>
-&nbsp;
-<a href="mailto:saisriha.guddati@ufl.edu"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff" alt="Email"/></a>
-&nbsp;
-<a href="https://github.com/saisriharsha19"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="GitHub"/></a>
+<a href="https://saisriharsha.me">
+  <img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=safari&logoColor=58a6ff&labelColor=0d1117" height="30" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/sai-sri-harsha-guddati">
+  <img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=58a6ff&labelColor=0d1117" height="30" alt="LinkedIn"/>
+</a>
+<a href="mailto:saisriharshaguddati1@gmail.com">
+  <img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=58a6ff&labelColor=0d1117" height="30" alt="Email"/>
+</a>
+<a href="https://github.com/saisriharsha19">
+  <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=0d1117" height="30" alt="GitHub"/>
+</a>
 
 </div>
 
 <br/>
 
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
+<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> Professional Summary</h3>
 
-## `// About`
-
-```
-Master's in Computer Science @ University of Florida  ·  GPA: 3.9
-```
-
-Building production systems that scale. My focus areas include distributed backend architectures, LLM infrastructure and RAG pipelines, performance optimization with deep observability, and cloud-native deployment patterns.
-
-I prioritize **correctness**, **debuggability**, and **long-term maintainability** over flashy demos.
+> **Master of Science in Computer Science** at the **University of Florida** (GPA: 3.9/4.0).
+> 
+> I specialize in architecting **distributed backend systems**, optimizing high-volume **data infrastructure**, and building **production-grade AI platforms**. My engineering philosophy centers on observability, type safety, and scalable simplicity.
 
 <br/>
 
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
-
-## `// Experience`
+<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="25" height="25" /> Professional Experience</h3>
 
 <table>
-<tr>
-<td width="50%">
-
-### University of Florida IT
-**AI & Platform Engineer Intern**
-
-<br/>
-
-```diff
-+ 30,000+ active users served
-+ P95 latency: 800ms → 480ms
-+ 40% reduction in LLM API spend
-+ Kubernetes migration completed
-```
-
-<br/>
-
-**Stack:** FastAPI · Next.js · Celery · Redis · PostgreSQL · Prometheus · K8s
-
-</td>
-<td width="50%">
-
-### Tata Consultancy Services
-**Software Development Engineer**
-
-<br/>
-
-```diff
-+ 10M+ documents in semantic search
-+ Zero Sev-1 incidents (12 months)
-+ 50% query latency reduction
-+ Full CI/CD ownership
-```
-
-<br/>
-
-**Stack:** Python · Azure · Docker · Kubernetes · PostgreSQL · MSSQL
-
-</td>
-</tr>
+  <tr>
+    <td width="60%" valign="top">
+      <h4 style="margin-bottom: 5px;">University of Florida, Information Technology</h4>
+      <p style="color: #8b949e; margin-top: 0;"><strong>Software Engineer Intern</strong> • <em>May 2025 – Dec 2025</em></p>
+      <ul>
+        <li><strong>Scale:</strong> Architected backend services handling AI inference for <strong>30,000+ active users</strong>.</li>
+        <li><strong>Optimization:</strong> Reduced API P95 latency from <strong>800ms to 480ms</strong> via custom Prometheus metrics and connection pooling.</li>
+        <li><strong>Infrastructure:</strong> Migrated legacy services to <strong>Kubernetes</strong>; authored Helm charts reducing deployment time by 60%.</li>
+        <li><strong>Cost Efficiency:</strong> Designed Redis-based RAG caching, reducing external LLM API spend by <strong>40%</strong>.</li>
+      </ul>
+      <p><code>FastAPI</code> <code>Celery</code> <code>Kubernetes</code> <code>PostgreSQL</code> <code>Redis</code></p>
+    </td>
+    <td width="40%" valign="top">
+      <h4 style="margin-bottom: 5px;">Tata Consultancy Services</h4>
+      <p style="color: #8b949e; margin-top: 0;"><strong>Software Development Engineer</strong> • <em>Aug 2022 – Dec 2023</em></p>
+      <ul>
+        <li><strong>Search Engine:</strong> Developed semantic search on Azure for <strong>10M+ enterprise documents</strong> using Pinecone & Flask.</li>
+        <li><strong>Reliability:</strong> Maintained zero Sev-1 production incidents for 12 months via automated CI/CD gates.</li>
+        <li><strong>Database:</strong> Optimized PostgreSQL queries via composite indexing, cutting latency by <strong>50%</strong>.</li>
+      </ul>
+      <p><code>Python</code> <code>Azure</code> <code>Docker</code> <code>CI/CD</code></p>
+    </td>
+  </tr>
 </table>
 
 <br/>
 
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
-
-## `// Projects`
+<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="25" height="25" /> Technical Projects</h3>
 
 <table>
-<tr>
-<td width="33%" valign="top">
-
-### [Vision AI](https://github.com/saisriharsha19/Vision-AI)
-**RAG-Driven LLM Platform**
-
-<br/>
-
-Modular FastAPI services with async execution, Pinecone vector search, LangChain pipelines, and YOLO-based object detection.
-
-<br/>
-
-`FastAPI` `Pinecone` `LangChain` `YOLO`
-
-</td>
-<td width="33%" valign="top">
-
-### [Compiler Design](https://github.com/saisriharsha19/CompilerDesign)
-**Delphi/Pascal Interpreter**
-
-<br/>
-
-Complete lexer and parser using ANTLR with AST-based execution engine, lexical scoping, and O(1) symbol table lookups.
-
-<br/>
-
-`ANTLR` `Java` `Compilers` `AST`
-
-</td>
-<td width="33%" valign="top">
-
-### [Data Scraper](https://github.com/saisriharsha19/data-scraper)
-**Scalable Extraction Pipeline**
-
-<br/>
-
-Fault-tolerant data ingestion architecture with clean separation between extraction and persistence layers.
-
-<br/>
-
-`Python` `Scrapy` `Pipelines`
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### [Website Backend](https://github.com/saisriharsha19/personal-website-backend)
-**Production API Services**
-
-<br/>
-
-FastAPI-based REST services with secure routing, clean architecture, and low-latency design patterns.
-
-<br/>
-
-`FastAPI` `REST` `Auth` `PostgreSQL`
-
-</td>
-<td width="33%" valign="top">
-
-### [ML Redaction](https://github.com/saisriharsha19/ML-Based_Redaction_Name_Prediction_System)
-**Privacy-Preserving NLP**
-
-<br/>
-
-Entity detection and anonymization pipeline for structured and unstructured text with compliance focus.
-
-<br/>
-
-`NLP` `Privacy` `ML` `Python`
-
-</td>
-<td width="33%" valign="top">
-
-### [Productivity Pal](https://github.com/saisriharsha19/productivity-pal)
-**Workflow Automation**
-
-<br/>
-
-Backend-first modular design with extensible task orchestration for productivity workflows.
-
-<br/>
-
-`Automation` `Backend` `APIs`
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Distributed Cache w/ Consistent Hashing</h4>
+      <p>Designed a fault-tolerant caching layer across a 5-node Redis cluster.</p>
+      <ul>
+        <li><strong>Resilience:</strong> Implemented gossip-style health checks sustaining <strong>99.95% availability</strong> during node failures.</li>
+        <li><strong>Scaling:</strong> Used consistent hashing to minimize key redistribution during horizontal scaling.</li>
+      </ul>
+      <p><code>Python</code> <code>Redis</code> <code>Docker</code> <code>System Design</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Delphi Pascal Compiler</h4>
+      <p>Built a comprehensive language interpreter with manual memory management.</p>
+      <ul>
+        <li><strong>Performance:</strong> Engineered an O(1) hash map-backed symbol table for rapid identifier lookup.</li>
+        <li><strong>Complexity:</strong> Implemented AST-based execution, lexical scoping, and nested control flow parsing.</li>
+      </ul>
+      <p><code>Java</code> <code>ANTLR</code> <code>Compiler Design</code></p>
+    </td>
+  </tr>
 </table>
 
 <br/>
 
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
+<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="25" height="25" /> Technical Arsenal</h3>
 
-## `// Tech Stack`
-
-<div align="center">
-
-<br/>
-
-<!-- Languages -->
-<img src="https://skillicons.dev/icons?i=python,java,typescript,cpp,bash&theme=dark" alt="Languages"/>
-
-<br/><br/>
-
-<!-- Backend & Frameworks -->
-<img src="https://skillicons.dev/icons?i=fastapi,flask,spring,nodejs&theme=dark" alt="Backend"/>
-
-<br/><br/>
-
-<!-- Data & Infrastructure -->
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,kafka,docker,kubernetes&theme=dark" alt="Infrastructure"/>
-
-<br/><br/>
-
-<!-- Cloud & DevOps -->
-<img src="https://skillicons.dev/icons?i=aws,azure,terraform,githubactions,gitlab&theme=dark" alt="Cloud"/>
-
-<br/><br/>
-
-<!-- AI & ML -->
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" alt="AI"/>
-
-<br/><br/>
-
-<!-- Observability -->
-<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Observability"/>
-
-</div>
-
-<br/>
-
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
-
-## `// Principles`
-
-<div align="center">
-
-<br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<br/>
-<img width="60" src="https://www.svgrepo.com/show/532195/ruler-triangle.svg" alt="measure"/>
-<br/><br/>
-<strong>Measure First</strong>
-<br/>
-<sub>Optimize second</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img width="60" src="https://www.svgrepo.com/show/532413/shield-check.svg" alt="reliability"/>
-<br/><br/>
-<strong>Reliability</strong>
-<br/>
-<sub>Beats cleverness</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img width="60" src="https://www.svgrepo.com/show/532540/layer-group.svg" alt="simple"/>
-<br/><br/>
-<strong>Simplicity</strong>
-<br/>
-<sub>Scales better</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-<img width="60" src="https://www.svgrepo.com/show/532093/rocket.svg" alt="production"/>
-<br/><br/>
-<strong>Production</strong>
-<br/>
-<sub>Experience matters</sub>
-<br/><br/>
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="20%" align="center"><strong>Languages</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=python,java,cpp,ts,bash&theme=dark" alt="Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center"><strong>Backend</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=fastapi,flask,spring,nodejs,kafka,rabbitmq&theme=dark" alt="Backend" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center"><strong>Cloud & DevOps</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,terraform,githubactions&theme=dark" alt="DevOps" />
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center"><strong>Data & AI</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,pytorch,tensorflow,grafana&theme=dark" alt="Data" />
+    </td>
+  </tr>
 </table>
 
-</div>
-
 <br/>
 
-<!-- SECTION DIVIDER -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" alt="divider"/>
-
 <div align="center">
-
-<!-- GITHUB STATS -->
-<img src="https://github-readme-stats.vercel.app/api?username=saisriharsha19&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saisriharsha19&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" height="165"/>
-
-<br/><br/>
-
-<!-- FOOTER -->
-<sub>Building systems that work at scale · Open to opportunities</sub>
-
-<br/><br/>
-
-<!-- PROFILE VIEWS -->
-<img src="https://komarev.com/ghpvc/?username=saisriharsha19&style=for-the-badge&color=0d1117&labelColor=0d1117&label=PROFILE+VIEWS" alt="Profile views"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=saisriharsha19&show_icons=true&theme=react&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&hide_border=true" height="150" alt="Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saisriharsha19&theme=react&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&hide_border=true" height="150" alt="Streak" />
+  
+  <br/><br/>
+  
+  <p style="color: #8b949e; font-size: 12px;">
+    Designed by Sai Sri Harsha Guddati · 2025
+  </p>
 </div>
