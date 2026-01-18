@@ -131,4 +131,137 @@
     </g>
 
   </g>
+<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg">
+  <title>Technical Focus and Engineering Principles</title>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e6edf3" />
+      <stop offset="100%" style="stop-color:#a2d2ff" />
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#388bfd;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#388bfd;stop-opacity:0.05" />
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .root-font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .section-header { font-weight: 800; font-size: 24px; fill: url(#headerGrad); letter-spacing: -0.5px; }
+      .category-label { font-weight: 700; font-size: 15px; fill: #58a6ff; letter-spacing: 0.5px; text-transform: uppercase; }
+      .skill-list { font-size: 13px; fill: #c9d1d9; line-height: 1.6; font-weight: 400; }
+      .principle-text { font-size: 16px; fill: #e6edf3; font-weight: 500; }
+      .panel-card { fill: url(#panelGrad); stroke: #388bfd; stroke-width: 1; stroke-opacity: 0.3; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#bgGrad)"/>
+
+  <g stroke="#388bfd" stroke-width="1.5" fill="#388bfd" opacity="0.1" filter="url(#glow)">
+      <path d="M 50 50 L 300 150 L 700 80 L 950 250 L 600 450 L 100 400 Z" fill="none"/>
+      <line x1="300" y1="150" x2="600" y2="450" fill="none"/>
+      <circle cx="300" cy="150" r="3" />
+      <circle cx="700" cy="80" r="4" />
+      <circle cx="950" cy="250" r="3" />
+      <circle cx="600" cy="450" r="4" />
+  </g>
+
+
+  <g transform="translate(40, 50)" class="root-font">
+
+    <g>
+      <text x="0" y="0" class="section-header">Technical Focus</text>
+
+      <g transform="translate(0, 50)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">Languages</text>
+        <text x="20" y="55" class="skill-list">
+             <tspan x="20" dy="0">Python, Java, TypeScript,</tspan>
+             <tspan x="20" dy="20">SQL, C++, Bash</tspan>
+        </text>
+      </g>
+       <g transform="translate(320, 50)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">Backend &amp; Systems</text>
+        <text x="20" y="55" class="skill-list">
+            <tspan x="20" dy="0">FastAPI, Flask, Spring Boot,</tspan>
+            <tspan x="20" dy="20">REST, Async IO, Microservices</tspan>
+        </text>
+      </g>
+
+      <g transform="translate(0, 170)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">Data &amp; Infra</text>
+        <text x="20" y="55" class="skill-list">
+            <tspan x="20" dy="0">PostgreSQL, Redis, MongoDB,</tspan>
+            <tspan x="20" dy="20">Kafka, Docker, Kubernetes</tspan>
+        </text>
+      </g>
+       <g transform="translate(320, 170)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">Cloud &amp; DevOps</text>
+        <text x="20" y="55" class="skill-list">
+            <tspan x="20" dy="0">AWS, Azure, Terraform, Helm,</tspan>
+            <tspan x="20" dy="20">GitHub Actions, GitLab CI</tspan>
+        </text>
+      </g>
+
+       <g transform="translate(0, 290)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">AI Systems</text>
+        <text x="20" y="55" class="skill-list">
+            <tspan x="20" dy="0">LLM APIs, RAG architectures,</tspan>
+            <tspan x="20" dy="20">LangChain, Pinecone, PyTorch</tspan>
+        </text>
+      </g>
+       <g transform="translate(320, 290)">
+        <rect width="300" height="100" rx="12" class="panel-card"/>
+        <text x="20" y="30" class="category-label">Observability</text>
+        <text x="20" y="55" class="skill-list">
+            <tspan x="20" dy="0">Prometheus, Grafana,</tspan>
+            <tspan x="20" dy="20">structured logging, metrics</tspan>
+        </text>
+      </g>
+    </g>
+
+
+    <g transform="translate(680, 0)">
+       <text x="0" y="0" class="section-header">Engineering Principles</text>
+
+       <g transform="translate(0, 60)">
+         <g transform="translate(0, 0)">
+           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+           <text x="25" y="13" class="principle-text">Measure before optimizing</text>
+         </g>
+         <g transform="translate(0, 50)">
+           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+           <text x="25" y="13" class="principle-text">Reliability over cleverness</text>
+         </g>
+         <g transform="translate(0, 100)">
+           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+           <text x="25" y="13" class="principle-text">Simple systems scale better</text>
+         </g>
+         <g transform="translate(0, 150)">
+           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+           <text x="25" y="13" class="principle-text">Production experience matters</text>
+         </g>
+       </g>
+    </g>
+
+  </g>
+</svg>
+    
 </svg>
