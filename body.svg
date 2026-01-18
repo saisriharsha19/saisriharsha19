@@ -1,138 +1,5 @@
-<svg width="850" height="1120" viewBox="0 0 850 1120" xmlns="http://www.w3.org/2000/svg">
-  <title>Sai Sri Harsha Guddati - Portfolio Details</title>
-
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
-    </linearGradient>
-
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#e6edf3" />
-      <stop offset="100%" style="stop-color:#a2d2ff" />
-    </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <style>
-      .section-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 24px; fill: url(#headerGrad); letter-spacing: -0.5px; }
-      .job-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 16px; fill: #e6edf3; }
-      .project-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 16px; fill: #58a6ff; }
-      .body-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #c9d1d9; line-height: 1.6; font-weight: 400; }
-      /* Slightly smaller font for URLs to ensure fit */
-      .url-text { font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', monospace; font-size: 11px; fill: #79c0ff; opacity: 0.9; }
-      .divider { stroke: #30363d; stroke-width: 1; opacity: 0.5; }
-    </style>
-  </defs>
-
-  <rect width="850" height="1120" fill="url(#bgGrad)"/>
-
-  <g stroke="#388bfd" stroke-width="1.5" fill="#388bfd" opacity="0.12" filter="url(#glow)">
-      <path d="M 50 100 L 200 300 L 800 150 L 700 600 L 100 900" fill="none"/>
-      <circle cx="50" cy="100" r="4" />
-      <circle cx="200" cy="300" r="3" />
-      <circle cx="800" cy="150" r="5" />
-      <circle cx="700" cy="600" r="4" />
-      <circle cx="100" cy="900" r="4" />
-      <line x1="0" y1="50" x2="850" y2="50" stroke-opacity="0.3" stroke-dasharray="10,20"/>
-      <line x1="0" y1="1080" x2="850" y2="1080" stroke-opacity="0.3" stroke-dasharray="10,20"/>
-  </g>
-
-  <g transform="translate(50, 60)">
-    
-    <text x="0" y="0" class="section-title">About</text>
-    
-    <text x="0" y="40" class="body-text" font-weight="600" fill="#e6edf3">M.S. Computer Science at the University of Florida (GPA 3.85).</text>
-    
-    <text x="0" y="70" class="body-text">
-      <tspan x="0" dy="0">I design and operate high-performance fullstack/backend systems with a focus on distributed</tspan>
-      <tspan x="0" dy="24">infrastructure, observability, and data-intensive workloads. My work includes migrating</tspan>
-      <tspan x="0" dy="24">production services to Kubernetes, optimizing PostgreSQL, and building RAG pipelines.</tspan>
-    </text>
-    
-    <text x="0" y="150" class="body-text" style="font-style:italic; fill:#8b949e;">I treat infrastructure as code and documentation as a first-class feature.</text>
-
-    <line x1="0" y1="180" x2="750" y2="180" class="divider"/>
-
-
-    <text x="0" y="230" class="section-title">Experience Highlights</text>
-
-    <text x="0" y="270" class="job-title">AI &amp; Platform Engineer Intern — University of Florida IT</text>
-    <text x="0" y="295" class="body-text">
-      <tspan x="0" dy="0">• Built and operated backend services for AI platforms serving 30,000+ active users</tspan>
-      <tspan x="0" dy="24">• Designed Prompt Builder using FastAPI, Next.js, Celery, Redis, PostgreSQL</tspan>
-      <tspan x="0" dy="24">• Reduced P95 latency from 800ms → 480ms using metrics-driven optimization</tspan>
-      <tspan x="0" dy="24">• Migrated services to Kubernetes, cutting deploy time from hours to minutes</tspan>
-      <tspan x="0" dy="24">• Reduced external LLM API cost by 40% via Redis caching in RAG pipelines</tspan>
-    </text>
-
-    <text x="0" y="430" class="job-title">Software Development Engineer — Tata Consultancy Services</text>
-    <text x="0" y="455" class="body-text">
-      <tspan x="0" dy="0">• Built enterprise semantic search and RAG systems over 10M+ documents</tspan>
-      <tspan x="0" dy="24">• Owned CI/CD pipelines with zero Sev-1 incidents across 12 months</tspan>
-      <tspan x="0" dy="24">• Optimized PostgreSQL and MSSQL queries achieving 50% latency reduction</tspan>
-      <tspan x="0" dy="24">• Delivered production services on Azure using Docker and Kubernetes</tspan>
-    </text>
-
-    <line x1="0" y1="570" x2="750" y2="570" class="divider"/>
-
-
-    <text x="0" y="620" class="section-title">Selected Projects</text>
-
-    <g transform="translate(0, 650)">
-      <text x="0" y="0" class="project-title">Vision AI</text>
-      <text x="0" y="25" class="body-text">Scalable RAG-driven LLM platform.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Modular FastAPI, Pinecone, YOLO.</text>
-      <text x="0" y="72" class="url-text">github.com/saisriharsha19/Vision-AI</text>
-    </g>
-
-    <g transform="translate(400, 650)">
-      <text x="0" y="0" class="project-title">Compiler Design</text>
-      <text x="0" y="25" class="body-text">Delphi / Pascal Interpreter.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Lexer/Parser via ANTLR, AST execution.</text>
-      <text x="0" y="72" class="url-text">github.com/saisriharsha19/CompilerDesign</text>
-    </g>
-
-    <g transform="translate(0, 770)">
-      <text x="0" y="0" class="project-title">Distributed Data Scraper</text>
-      <text x="0" y="25" class="body-text">High-throughput scraping pipeline.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Python-based, fault tolerant design.</text>
-      <text x="0" y="72" class="url-text">github.com/saisriharsha19/data-scraper</text>
-    </g>
-
-    <g transform="translate(400, 770)">
-      <text x="0" y="0" class="project-title">Personal Website Backend</text>
-      <text x="0" y="25" class="body-text">Production REST API.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">FastAPI, secure routing, low latency.</text>
-      <text x="0" y="72" class="url-text">github.com/saisriharsha19/personal-website-backend</text>
-    </g>
-
-    <g transform="translate(0, 890)">
-      <text x="0" y="0" class="project-title">ML-Based Redaction System</text>
-      <text x="0" y="25" class="body-text">Privacy-preserving NLP system.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Entity detection/anonymization.</text>
-      <text x="0" y="72" class="url-text">
-        <tspan x="0" dy="0">github.com/saisriharsha19/</tspan>
-        <tspan x="0" dy="15">ML-Based_Redaction_Name_Prediction_System</tspan>
-      </text>
-    </g>
-
-    <g transform="translate(400, 890)">
-      <text x="0" y="0" class="project-title">Productivity Pal</text>
-      <text x="0" y="25" class="body-text">Task and workflow assistant.</text>
-      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Backend-first automation design.</text>
-      <text x="0" y="72" class="url-text">github.com/saisriharsha19/productivity-pal</text>
-    </g>
-
-  </g>
-<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg">
-  <title>Technical Focus and Engineering Principles</title>
+<svg width="1000" height="1680" viewBox="0 0 1000 1680" xmlns="http://www.w3.org/2000/svg">
+  <title>Sai Sri Harsha Guddati - Complete Profile</title>
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -146,12 +13,12 @@
     </linearGradient>
 
     <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#388bfd;stop-opacity:0.1" />
-      <stop offset="100%" style="stop-color:#388bfd;stop-opacity:0.05" />
+      <stop offset="0%" style="stop-color:#388bfd;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#388bfd;stop-opacity:0.02" />
     </linearGradient>
 
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -160,108 +27,220 @@
 
     <style>
       .root-font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .section-header { font-weight: 800; font-size: 24px; fill: url(#headerGrad); letter-spacing: -0.5px; }
-      .category-label { font-weight: 700; font-size: 15px; fill: #58a6ff; letter-spacing: 0.5px; text-transform: uppercase; }
-      .skill-list { font-size: 13px; fill: #c9d1d9; line-height: 1.6; font-weight: 400; }
-      .principle-text { font-size: 16px; fill: #e6edf3; font-weight: 500; }
+      
+      .name-title { font-weight: 800; font-size: 38px; fill: url(#headerGrad); letter-spacing: -1px; }
+      .role-subtitle { font-weight: 400; font-size: 18px; fill: #c9d1d9; }
+      
+      .section-header { font-weight: 800; font-size: 26px; fill: url(#headerGrad); letter-spacing: -0.5px; }
+      
+      .job-title { font-weight: 700; font-size: 17px; fill: #e6edf3; }
+      .project-title { font-weight: 700; font-size: 16px; fill: #58a6ff; }
+      
+      .body-text { font-size: 15px; fill: #c9d1d9; line-height: 1.6; font-weight: 400; }
+      .body-text-sm { font-size: 13px; fill: #8b949e; line-height: 1.5; }
+      
+      .url-text { font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', monospace; font-size: 12px; fill: #79c0ff; opacity: 0.9; }
+      
+      .category-label { font-weight: 700; font-size: 14px; fill: #58a6ff; letter-spacing: 0.5px; text-transform: uppercase; }
+      .skill-list { font-size: 13px; fill: #c9d1d9; line-height: 1.5; font-weight: 400; }
+      
+      .divider { stroke: #30363d; stroke-width: 1; opacity: 0.5; }
       .panel-card { fill: url(#panelGrad); stroke: #388bfd; stroke-width: 1; stroke-opacity: 0.3; }
     </style>
   </defs>
 
-  <rect width="1000" height="520" fill="url(#bgGrad)"/>
+  <rect width="1000" height="1680" fill="url(#bgGrad)"/>
 
   <g stroke="#388bfd" stroke-width="1.5" fill="#388bfd" opacity="0.1" filter="url(#glow)">
-      <path d="M 50 50 L 300 150 L 700 80 L 950 250 L 600 450 L 100 400 Z" fill="none"/>
-      <line x1="300" y1="150" x2="600" y2="450" fill="none"/>
-      <circle cx="300" cy="150" r="3" />
-      <circle cx="700" cy="80" r="4" />
-      <circle cx="950" cy="250" r="3" />
-      <circle cx="600" cy="450" r="4" />
+      <path d="M 50 100 L 250 300 L 800 150 L 700 600 L 100 900 L 500 1200 L 900 1500" fill="none"/>
+      <circle cx="50" cy="100" r="4" />
+      <circle cx="250" cy="300" r="3" />
+      <circle cx="800" cy="150" r="5" />
+      <circle cx="700" cy="600" r="4" />
+      <circle cx="100" cy="900" r="4" />
+      <circle cx="500" cy="1200" r="5" />
+      <circle cx="900" cy="1500" r="4" />
+      <line x1="0" y1="50" x2="1000" y2="50" stroke-opacity="0.2" stroke-dasharray="10,20"/>
+      <line x1="0" y1="1250" x2="1000" y2="1250" stroke-opacity="0.2" stroke-dasharray="10,20"/>
   </g>
 
 
-  <g transform="translate(40, 50)" class="root-font">
+  <g transform="translate(60, 80)" class="root-font">
 
-    <g>
-      <text x="0" y="0" class="section-header">Technical Focus</text>
+    <text x="0" y="0" class="name-title">Sai Sri Harsha Guddati</text>
+    <text x="0" y="40" class="role-subtitle">
+      Full Stack &amp; AI Infrastructure Engineer · Gainesville, Florida · 2026
+    </text>
 
-      <g transform="translate(0, 50)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">Languages</text>
-        <text x="20" y="55" class="skill-list">
-             <tspan x="20" dy="0">Python, Java, TypeScript,</tspan>
-             <tspan x="20" dy="20">SQL, C++, Bash</tspan>
-        </text>
-      </g>
-       <g transform="translate(320, 50)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">Backend &amp; Systems</text>
-        <text x="20" y="55" class="skill-list">
-            <tspan x="20" dy="0">FastAPI, Flask, Spring Boot,</tspan>
-            <tspan x="20" dy="20">REST, Async IO, Microservices</tspan>
-        </text>
-      </g>
+    <line x1="0" y1="80" x2="880" y2="80" class="divider"/>
 
-      <g transform="translate(0, 170)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">Data &amp; Infra</text>
-        <text x="20" y="55" class="skill-list">
-            <tspan x="20" dy="0">PostgreSQL, Redis, MongoDB,</tspan>
-            <tspan x="20" dy="20">Kafka, Docker, Kubernetes</tspan>
-        </text>
-      </g>
-       <g transform="translate(320, 170)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">Cloud &amp; DevOps</text>
-        <text x="20" y="55" class="skill-list">
-            <tspan x="20" dy="0">AWS, Azure, Terraform, Helm,</tspan>
-            <tspan x="20" dy="20">GitHub Actions, GitLab CI</tspan>
-        </text>
-      </g>
 
-       <g transform="translate(0, 290)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">AI Systems</text>
-        <text x="20" y="55" class="skill-list">
-            <tspan x="20" dy="0">LLM APIs, RAG architectures,</tspan>
-            <tspan x="20" dy="20">LangChain, Pinecone, PyTorch</tspan>
+    <g transform="translate(0, 120)">
+        <text x="0" y="0" class="section-header">About</text>
+        
+        <text x="0" y="40" class="body-text" font-weight="600" fill="#e6edf3">M.S. Computer Science at the University of Florida (GPA 3.9).</text>
+        
+        <text x="0" y="70" class="body-text">
+          <tspan x="0" dy="0">I design and operate high-performance backend systems with a focus on distributed</tspan>
+          <tspan x="0" dy="26">infrastructure, observability, and data-intensive workloads. My work includes migrating</tspan>
+          <tspan x="0" dy="26">production services to Kubernetes, optimizing PostgreSQL, and building RAG pipelines.</tspan>
         </text>
-      </g>
-       <g transform="translate(320, 290)">
-        <rect width="300" height="100" rx="12" class="panel-card"/>
-        <text x="20" y="30" class="category-label">Observability</text>
-        <text x="20" y="55" class="skill-list">
-            <tspan x="20" dy="0">Prometheus, Grafana,</tspan>
-            <tspan x="20" dy="20">structured logging, metrics</tspan>
-        </text>
-      </g>
+        
+        <text x="0" y="150" class="body-text" style="font-style:italic; fill:#8b949e;">I treat infrastructure as code and documentation as a first-class feature.</text>
     </g>
 
+    <line x1="0" y1="310" x2="880" y2="310" class="divider"/>
 
-    <g transform="translate(680, 0)">
-       <text x="0" y="0" class="section-header">Engineering Principles</text>
 
-       <g transform="translate(0, 60)">
-         <g transform="translate(0, 0)">
-           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
-           <text x="25" y="13" class="principle-text">Measure before optimizing</text>
-         </g>
-         <g transform="translate(0, 50)">
-           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
-           <text x="25" y="13" class="principle-text">Reliability over cleverness</text>
-         </g>
-         <g transform="translate(0, 100)">
-           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
-           <text x="25" y="13" class="principle-text">Simple systems scale better</text>
-         </g>
-         <g transform="translate(0, 150)">
-           <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
-           <text x="25" y="13" class="principle-text">Production experience matters</text>
-         </g>
-       </g>
+    <g transform="translate(0, 360)">
+        <text x="0" y="0" class="section-header">Experience Highlights</text>
+
+        <g transform="translate(0, 40)">
+            <text x="0" y="0" class="job-title">AI &amp; Platform Engineer Intern — University of Florida IT</text>
+            <text x="0" y="25" class="body-text">
+              <tspan x="0" dy="0">• Built and operated backend services for AI platforms serving 30,000+ active users</tspan>
+              <tspan x="0" dy="26">• Designed Prompt Builder using FastAPI, Next.js, Celery, Redis, PostgreSQL</tspan>
+              <tspan x="0" dy="26">• Reduced P95 latency from 800ms → 480ms using metrics-driven optimization</tspan>
+              <tspan x="0" dy="26">• Migrated services to Kubernetes, cutting deploy time from hours to minutes</tspan>
+              <tspan x="0" dy="26">• Reduced external LLM API cost by 40% via Redis caching in RAG pipelines</tspan>
+            </text>
+        </g>
+
+        <g transform="translate(0, 210)">
+            <text x="0" y="0" class="job-title">Software Development Engineer — Tata Consultancy Services</text>
+            <text x="0" y="25" class="body-text">
+              <tspan x="0" dy="0">• Built enterprise semantic search and RAG systems over 10M+ documents</tspan>
+              <tspan x="0" dy="26">• Owned CI/CD pipelines with zero Sev-1 incidents across 12 months</tspan>
+              <tspan x="0" dy="26">• Optimized PostgreSQL and MSSQL queries achieving 50% latency reduction</tspan>
+              <tspan x="0" dy="26">• Delivered production services on Azure using Docker and Kubernetes</tspan>
+            </text>
+        </g>
+    </g>
+
+    <line x1="0" y1="730" x2="880" y2="730" class="divider"/>
+
+
+    <g transform="translate(0, 780)">
+        <text x="0" y="0" class="section-header">Selected Projects</text>
+
+        <g transform="translate(0, 40)">
+            <g>
+                <text x="0" y="0" class="project-title">Vision AI</text>
+                <text x="0" y="22" class="body-text">Scalable RAG-driven LLM platform.</text>
+                <text x="0" y="44" class="body-text-sm">Modular FastAPI, Pinecone, YOLO.</text>
+                <text x="0" y="68" class="url-text">github.com/saisriharsha19/Vision-AI</text>
+            </g>
+            <g transform="translate(500, 0)">
+                <text x="0" y="0" class="project-title">Compiler Design</text>
+                <text x="0" y="22" class="body-text">Delphi / Pascal Interpreter.</text>
+                <text x="0" y="44" class="body-text-sm">Lexer/Parser via ANTLR, AST execution.</text>
+                <text x="0" y="68" class="url-text">github.com/saisriharsha19/CompilerDesign</text>
+            </g>
+        </g>
+
+        <g transform="translate(0, 160)">
+            <g>
+                <text x="0" y="0" class="project-title">Distributed Data Scraper</text>
+                <text x="0" y="22" class="body-text">High-throughput scraping pipeline.</text>
+                <text x="0" y="44" class="body-text-sm">Python-based, fault tolerant design.</text>
+                <text x="0" y="68" class="url-text">github.com/saisriharsha19/data-scraper</text>
+            </g>
+            <g transform="translate(500, 0)">
+                <text x="0" y="0" class="project-title">Personal Website Backend</text>
+                <text x="0" y="22" class="body-text">Production REST API.</text>
+                <text x="0" y="44" class="body-text-sm">FastAPI, secure routing, low latency.</text>
+                <text x="0" y="68" class="url-text">github.com/saisriharsha19/personal-website-backend</text>
+            </g>
+        </g>
+
+        <g transform="translate(0, 280)">
+            <g>
+                <text x="0" y="0" class="project-title">ML-Based Redaction System</text>
+                <text x="0" y="22" class="body-text">Privacy-preserving NLP system.</text>
+                <text x="0" y="44" class="body-text-sm">Entity detection/anonymization.</text>
+                <text x="0" y="68" class="url-text">
+                  <tspan x="0" dy="0">github.com/saisriharsha19/</tspan>
+                  <tspan x="0" dy="16">ML-Based_Redaction_Name_Prediction_System</tspan>
+                </text>
+            </g>
+            <g transform="translate(500, 0)">
+                <text x="0" y="0" class="project-title">Productivity Pal</text>
+                <text x="0" y="22" class="body-text">Task and workflow assistant.</text>
+                <text x="0" y="44" class="body-text-sm">Backend-first automation design.</text>
+                <text x="0" y="68" class="url-text">github.com/saisriharsha19/productivity-pal</text>
+            </g>
+        </g>
+    </g>
+
+    <line x1="0" y1="1180" x2="880" y2="1180" class="divider"/>
+
+
+    <g transform="translate(0, 1230)">
+        
+        <g>
+            <text x="0" y="0" class="section-header">Technical Focus</text>
+
+            <g transform="translate(0, 40)">
+                <rect width="280" height="90" rx="10" class="panel-card"/>
+                <text x="20" y="30" class="category-label">Languages</text>
+                <text x="20" y="55" class="skill-list">Python, Java, TypeScript,<tspan x="20" dy="18">SQL, C++, Bash</tspan></text>
+                
+                <g transform="translate(300, 0)">
+                    <rect width="280" height="90" rx="10" class="panel-card"/>
+                    <text x="20" y="30" class="category-label">Backend &amp; Systems</text>
+                    <text x="20" y="55" class="skill-list">FastAPI, Flask, Spring Boot,<tspan x="20" dy="18">REST, Async IO, Microservices</tspan></text>
+                </g>
+            </g>
+
+            <g transform="translate(0, 145)">
+                <rect width="280" height="90" rx="10" class="panel-card"/>
+                <text x="20" y="30" class="category-label">Data &amp; Infra</text>
+                <text x="20" y="55" class="skill-list">PostgreSQL, Redis, MongoDB,<tspan x="20" dy="18">Kafka, Docker, Kubernetes</tspan></text>
+                
+                <g transform="translate(300, 0)">
+                    <rect width="280" height="90" rx="10" class="panel-card"/>
+                    <text x="20" y="30" class="category-label">Cloud &amp; DevOps</text>
+                    <text x="20" y="55" class="skill-list">AWS, Azure, Terraform, Helm,<tspan x="20" dy="18">GitHub Actions, GitLab CI</tspan></text>
+                </g>
+            </g>
+
+            <g transform="translate(0, 250)">
+                <rect width="280" height="90" rx="10" class="panel-card"/>
+                <text x="20" y="30" class="category-label">AI Systems</text>
+                <text x="20" y="55" class="skill-list">LLM APIs, RAG architectures,<tspan x="20" dy="18">LangChain, Pinecone, PyTorch</tspan></text>
+                
+                <g transform="translate(300, 0)">
+                    <rect width="280" height="90" rx="10" class="panel-card"/>
+                    <text x="20" y="30" class="category-label">Observability</text>
+                    <text x="20" y="55" class="skill-list">Prometheus, Grafana,<tspan x="20" dy="18">structured logging, metrics</tspan></text>
+                </g>
+            </g>
+        </g>
+
+
+        <g transform="translate(620, 0)">
+            <text x="0" y="0" class="section-header">Engineering Principles</text>
+
+            <g transform="translate(0, 50)">
+                <g transform="translate(0, 0)">
+                  <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+                  <text x="25" y="13" class="body-text" fill="#e6edf3" font-weight="500">Measure before optimizing</text>
+                </g>
+                <g transform="translate(0, 50)">
+                  <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+                  <text x="25" y="13" class="body-text" fill="#e6edf3" font-weight="500">Reliability over cleverness</text>
+                </g>
+                <g transform="translate(0, 100)">
+                  <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+                  <text x="25" y="13" class="body-text" fill="#e6edf3" font-weight="500">Simple systems scale better</text>
+                </g>
+                <g transform="translate(0, 150)">
+                  <circle cx="8" cy="8" r="5" fill="#388bfd" filter="url(#glow)"/>
+                  <text x="25" y="13" class="body-text" fill="#e6edf3" font-weight="500">Production experience matters</text>
+                </g>
+            </g>
+        </g>
     </g>
 
   </g>
-</svg>
-    
 </svg>
