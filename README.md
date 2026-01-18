@@ -153,5 +153,5 @@ Prometheus, Grafana, structured logging, metrics
 If you are building large-scale systems, AI platforms, or developer infrastructure, I am always open to meaningful conversations.
 
 
-![footer](./footer.svg)
+![footer](./footer.png)
 
