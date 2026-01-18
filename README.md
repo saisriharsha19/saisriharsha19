@@ -15,7 +15,7 @@ Focused on distributed systems, performance, reliability, and clean architecture
 <a href="https://github.com/saisriharsha19">GitHub</a>
 
 </div>
-<div>
+
 ---
 
 ## About
@@ -152,30 +152,6 @@ Prometheus, Grafana, structured logging, metrics
 
 If you are building large-scale systems, AI platforms, or developer infrastructure, I am always open to meaningful conversations.
 
-</div>
 
-<!-- FOOTER -->
-<svg width="100%" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .bg { fill:#0d1117; }
-    .line { stroke:#30363d; }
-    .text { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text"; fill:#8b949e; }
-    .mono { font-family:"SF Mono","Menlo"; fill:#2f81f7; font-weight:600; }
-  </style>
-
-  <rect x="0" y="0" width="1000" height="140" class="bg"/>
-  <line x1="40" y1="36" x2="960" y2="36" class="line"/>
-
-  <text x="500" y="78" text-anchor="middle" font-size="14" class="text">
-    Designed like a product. Built with systems thinking.
-  </text>
-
-  <text x="500" y="102" text-anchor="middle" font-size="13" class="mono">
-    Sai Sri Harsha Guddati · Backend · Fullstack · Infrastructure
-  </text>
-
-  <text x="500" y="124" text-anchor="middle" font-size="12" class="text">
-    Gainesville, Florida · 2026
-  </text>
-</svg>
+![footer](./footer.svg)
 
