@@ -1,190 +1,176 @@
-# 🚀 Sai Sri Harsha Guddati
-
+<!-- HERO -->
 <div align="center">
+  <h1 style="font-weight:600; letter-spacing:-0.03em;">Sai Sri Harsha Guddati</h1>
+  <p style="max-width:760px; font-size:16px; line-height:1.65; opacity:0.85;">
+    Backend & AI Infrastructure Engineer building scalable, production-grade systems
+    for LLM-powered applications, distributed platforms, and data-intensive services.
+  </p>
 
-![AI Engineer](https://img.shields.io/badge/AI%20Engineer-Expert-blue?style=for-the-badge&logo=artificial-intelligence)
-![ML Specialist](https://img.shields.io/badge/ML%20Specialist-Advanced-green?style=for-the-badge&logo=tensorflow)
-![Full Stack](https://img.shields.io/badge/Full%20Stack-Developer-orange?style=for-the-badge&logo=react)
+  <br/>
 
-**🎯 MS Computer Science @ University of Florida | 3.9 GPA**
-
-📧 [saisriha.guddati@ufl.edu](mailto:saisriha.guddati@ufl.edu) | 📱 (352) 665-8709 | 📍 Gainesville, FL
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-saisriharsha.me-ff69b4?style=for-the-badge&logo=safari)](https://saisriharsha.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sai-sri-harsha-guddati-552373180/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-333?style=for-the-badge&logo=github)](https://github.com/saisriharsha19)
-
+  <a href="https://saisriharsha.me">Portfolio</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sai-sri-harsha-guddati">LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:saisriha.guddati@ufl.edu">Email</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/saisriharsha19">GitHub</a>
 </div>
 
----
+<br/>
 
-## 💼 **Current Role**
+<!-- DIVIDER -->
+<svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <line x1="0" y1="10" x2="100" y2="10" stroke="currentColor" stroke-width="0.4"/>
+</svg>
 
-### 🤖 AI & Platform Engineer Intern | University of Florida IT
-*March 2025 - Present*
+## About
 
-🔥 **Key Achievements:**
-- **Deployed 15+ AI assistants** across UF departments using OpenWebUI and Onyx
-- **Integrated 6+ LLMs** (GPT, Claude, LLaMA, Mistral) with **40% latency reduction**
-- **Hosted on HiPerGator** and UF's private cloud infrastructure
+Master’s student in Computer Science at the University of Florida (GPA 3.9) with
+industry experience designing backend platforms and AI infrastructure that serve
+tens of thousands of real users.
 
----
+My work focuses on:
+- Distributed backend systems
+- LLM infrastructure and RAG pipelines
+- Performance optimization and observability
+- Cloud-native deployment and reliability
 
-## 🛠️ **Tech Arsenal**
-
-<div align="center">
-
-### 🧠 **AI/ML Powerhouse**
-![Python](https://img.shields.io/badge/Python-Expert-3776ab?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-Advanced-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Advanced-ff6f00?style=flat-square&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-Expert-1c3c3c?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Advanced-purple?style=flat-square)
-
-### ☁️ **Cloud & Infrastructure**
-![Azure](https://img.shields.io/badge/Azure-Certified-0078d4?style=flat-square&logo=microsoft-azure&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-Engineer-4285f4?style=flat-square&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Advanced-2496ed?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Proficient-326ce5?style=flat-square&logo=kubernetes&logoColor=white)
-
-### 🌐 **Full Stack Development**
-![React](https://img.shields.io/badge/React-Expert-61dafb?style=flat-square&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-Advanced-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-Expert-000000?style=flat-square&logo=flask&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Advanced-3178c6?style=flat-square&logo=typescript&logoColor=white)
-
-### 🗄️ **Data & Analytics**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Expert-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Advanced-47a248?style=flat-square&logo=mongodb&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Expert-150458?style=flat-square&logo=pandas&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-Advanced-e97627?style=flat-square&logo=tableau&logoColor=white)
-
-</div>
+I value correctness, debuggability, and long-term maintainability over demos.
 
 ---
 
-## 🏆 **Featured Projects**
+<!-- DIVIDER -->
+<svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <line x1="0" y1="10" x2="100" y2="10" stroke="currentColor" stroke-width="0.4"/>
+</svg>
 
-### 🔍 **VisionAI Suite: RAG-Driven LLM Data Processing**
-> *Scalable AI-powered document and image analysis platform*
+## Experience
 
-**🎯 Impact:** Built enterprise-grade RAG system with 40% uptime improvement
+### University of Florida IT  
+**AI & Platform Engineer Intern**
 
-**💻 Tech Stack:** `Python 3.12` `OpenAI API` `LangChain` `Pinecone` `YOLO` `FastAPI` `Azure`
+- Built backend services for AI platforms serving **30,000+ active users**
+- Designed Prompt Builder using **FastAPI, Next.js, Celery, Redis, PostgreSQL**
+- Reduced API P95 latency from **800ms → 480ms** using Prometheus and PostgreSQL tuning
+- Migrated production services to **Kubernetes**, cutting deploy time drastically
+- Reduced LLM API spend by **40%** using Redis caching in RAG pipelines
 
-**✨ Highlights:**
-- **Advanced RAG architecture** with Pinecone vector database
-- **Computer vision integration** using YOLO for object detection
-- **Async FastAPI** with caching for high-performance REST API
-- **Real-time React frontend** for seamless user interaction
+### Tata Consultancy Services  
+**Software Development Engineer**
 
----
-
-### 🎯 **AI Resume Ranker: Hybrid NLP + ML Pipeline**
-> *Intelligent candidate-job matching system using transformer embeddings*
-
-**🎯 Impact:** Achieved consistent precision in ranking top candidates
-
-**💻 Tech Stack:** `Sentence-BERT` `XGBoost` `AdaBoost` `scikit-learn` `Flask`
-
-**✨ Highlights:**
-- **Transformer-based embeddings** (SBERT) for semantic understanding
-- **ML ensemble models** (XGBoost, AdaBoost) for scoring
-- **Feature engineering** with cosine similarity and TF-IDF
-- **Real-time batch processing** with Flask deployment
+- Built enterprise semantic search and RAG systems across **10M+ documents**
+- Owned CI/CD pipelines with **zero Sev-1 incidents** over 12 months
+- Optimized PostgreSQL and MSSQL queries achieving **50% latency reduction**
+- Deployed containerized services on Azure with Docker and Kubernetes
 
 ---
 
-### 🔒 **GeoGuard: Privacy-Preserving Location Masking**
-> *Advanced geospatial data protection with 95% accuracy*
+<!-- DIVIDER -->
+<svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <line x1="0" y1="10" x2="100" y2="10" stroke="currentColor" stroke-width="0.4"/>
+</svg>
 
-**🎯 Impact:** Secure location data processing with interactive visualizations
+## Projects
 
-**💻 Tech Stack:** `KNN Algorithms` `GeoPandas` `Folium` `Matplotlib`
+### Vision AI  
+**Scalable RAG-Driven LLM Platform**
 
-**✨ Highlights:**
-- **95% accuracy** using optimized KNN algorithms
-- **Interactive mapping** with GeoPandas and Folium
-- **Complex geospatial processing** with Pandas and NumPy
+- Modular FastAPI services with async execution
+- Pinecone vector search with LangChain pipelines
+- YOLO-based object detection and OCR
+- Built for uptime, observability, and scale
 
----
-
-### 🏥 **Realtime Intelligent Patient Records**
-> *Full-stack healthcare platform with AI-powered insights*
-
-**🎯 Impact:** Streamlined doctor-patient interactions with AI summaries
-
-**💻 Tech Stack:** `FastAPI` `React` `TypeScript` `MongoDB` `Redis` `Transformers`
-
-**✨ Highlights:**
-- **Async FastAPI backend** with MongoDB persistence
-- **LLM integration** for patient history summarization
-- **JWT authentication** for secure, isolated data access
-- **Redis caching** for fast, context-aware responses
+🔗 https://github.com/saisriharsha19/Vision-AI
 
 ---
 
-## 💼 **Professional Experience**
+### Compiler Design  
+**Delphi / Pascal Interpreter**
 
-### 🏢 **Tata Consultancy Services** | *Software Development Engineer*
-*August 2022 - December 2023 | Hyderabad, India*
+- Lexer and parser using ANTLR
+- AST-based execution engine with lexical scoping
+- Hash-map symbol table with O(1) lookups
+- Focus on correctness and runtime behavior
 
-**🚀 Key Achievements:**
-- **Led AI-powered projects** with LLMs, Pinecone, and Flask integration
-- **Optimized database performance** by 50% using advanced indexing
-- **Created PowerApps solutions** improving inventory accuracy by 25%
-- **Processed 100,000+ images** with Computer Vision (YOLO, OCR)
-- **Achieved 98% code coverage** with robust testing frameworks
+🔗 https://github.com/saisriharsha19/CompilerDesign
 
 ---
 
-## 🏅 **Certifications & Achievements**
+### Data Scraper  
+**Scalable Data Extraction Pipeline**
 
-<div align="center">
+- Python-based scraping architecture
+- Fault-tolerant ingestion design
+- Clear separation of extraction and persistence
 
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-Engineer-4285f4?style=for-the-badge&logo=google-cloud)
-![Azure](https://img.shields.io/badge/Azure-Fundamentals-0078d4?style=for-the-badge&logo=microsoft-azure)
-![Data Science](https://img.shields.io/badge/Data_Science-Certified-orange?style=for-the-badge&logo=coursera)
-![Python](https://img.shields.io/badge/Python-Coursera-yellow?style=for-the-badge&logo=python)
-
-</div>
+🔗 https://github.com/saisriharsha19/data-scraper
 
 ---
 
-## 📊 **GitHub Stats**
+### Personal Website Backend  
+**Production API Backend**
 
-<div align="center">
+- FastAPI-based REST services
+- Secure routing and clean architecture
+- Designed for extensibility and low latency
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saisriharsha19&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
-## 🤝 **Let's Connect!**
-
-<div align="center">
-
-**🎯 Always excited to collaborate on AI/ML projects and innovative solutions!**
-
-[![Email](https://img.shields.io/badge/Email-saisriha.guddati@ufl.edu-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saisriha.guddati@ufl.edu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-ff69b4?style=for-the-badge&logo=safari&logoColor=white)](https://saisriharsha.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-sri-harsha-guddati-552373180/)
-
-**📍 Based in Gainesville, FL | Open to AI/ML opportunities**
-
-</div>
+🔗 https://github.com/saisriharsha19/personal-website-backend
 
 ---
 
-<div align="center">
+### ML-Based Redaction System  
+**Privacy-Preserving NLP Pipeline**
 
-*"Building the future with AI, one algorithm at a time"* 🤖✨
+- Entity detection and anonymization
+- Designed for structured and unstructured text
+- Focus on data safety and compliance
 
-![Profile Views](https://komarev.com/ghpvc/?username=saisriharsha19&color=blueviolet&style=for-the-badge)
+🔗 https://github.com/saisriharsha19/ML-Based_Redaction_Name_Prediction_System
 
-</div>
-<!---
-saisriharsha19/saisriharsha19 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+### Productivity Pal  
+**Automation and Workflow Assistant**
+
+- Backend-first modular design
+- Productivity-focused architecture
+- Extensible task orchestration
+
+🔗 https://github.com/saisriharsha19/productivity-pal
+
+---
+
+<!-- DIVIDER -->
+<svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <line x1="0" y1="10" x2="100" y2="10" stroke="currentColor" stroke-width="0.4"/>
+</svg>
+
+## Technical Stack
+
+**Languages**  
+Python, Java, TypeScript, SQL, C++, Bash
+
+**Backend & Systems**  
+FastAPI, Flask, Spring Boot, REST, Async IO, Microservices
+
+**Data & Infrastructure**  
+PostgreSQL, Redis, MongoDB, Kafka, Docker, Kubernetes
+
+**Cloud & DevOps**  
+AWS, Azure, Terraform, Helm, GitHub Actions, GitLab CI
+
+**AI Systems**  
+LLMs, RAG architectures, LangChain, Pinecone, PyTorch
+
+**Observability**  
+Prometheus, Grafana, structured logging, metrics
+
+---
+
+## Engineering Principles
+
+- Measure first, optimize second  
+- Reliability beats cleverness  
+- Simple systems scale better  
+- Production experience matters  
