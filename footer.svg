@@ -1,94 +1,86 @@
-<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Background -->
   <rect width="1000" height="240" fill="#0d1117"/>
 
-  <!-- Card -->
-  <rect x="40" y="24" rx="20" ry="20" width="920" height="192"
+  <rect x="40" y="24" rx="20" ry="20"
+        width="920" height="192"
         fill="#0f1623" stroke="#243042"/>
 
-  <!-- Top divider -->
   <line x1="70" y1="70" x2="930" y2="70" stroke="#243042"/>
 
-  <!-- LEFT COLUMN : NAME -->
+  <!-- Headings -->
   <text x="80" y="54"
+        font-size="18" font-weight="700"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="18" font-weight="700" fill="#e6edf3">
+        fill="#e6edf3">
     Sai Sri Harsha Guddati
   </text>
 
-  <text x="80" y="96"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="14" fill="#9aa7b5">
-    Backend & Infrastructure Engineer
-  </text>
-
-  <text x="80" y="120"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="13" fill="#8b949e">
-    AI Platforms · Distributed Systems
-  </text>
-
-  <text x="80" y="144"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="12" fill="#8b949e">
-    Gainesville, Florida · 2026
-  </text>
-
-  <!-- CENTER COLUMN : LINKS (heading style same as name) -->
   <text x="500" y="54" text-anchor="middle"
+        font-size="18" font-weight="700"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="18" font-weight="700" fill="#e6edf3">
+        fill="#e6edf3">
     Links
   </text>
 
-  <text x="500" y="100" text-anchor="middle"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-        font-size="13" fill="#2f81f7">
-    saisriharsha.me
-  </text>
-
-  <text x="500" y="124" text-anchor="middle"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-        font-size="13" fill="#2f81f7">
-    linkedin.com/in/sai-sri-harsha-guddati
-  </text>
-
-  <text x="500" y="148" text-anchor="middle"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-        font-size="13" fill="#2f81f7">
-    github.com/saisriharsha19
-  </text>
-
-  <!-- RIGHT COLUMN : FOCUS (heading style same as name) -->
   <text x="920" y="54" text-anchor="end"
+        font-size="18" font-weight="700"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="18" font-weight="700" fill="#e6edf3">
+        fill="#e6edf3">
     Focus
   </text>
 
-  <text x="920" y="100" text-anchor="end"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="13" fill="#8b949e">
+  <!-- Left -->
+  <text x="80" y="100" font-size="14"
+        font-family="system-ui" fill="#9aa7b5">
+    Backend & Infrastructure Engineer
+  </text>
+
+  <text x="80" y="124" font-size="13"
+        font-family="system-ui" fill="#8b949e">
+    Gainesville, Florida · 2026
+  </text>
+
+  <!-- Center links (visual, copyable) -->
+  <text x="500" y="104" text-anchor="middle"
+        font-size="13" fill="#2f81f7"
+        font-family="ui-monospace, Menlo, Consolas, monospace">
+    saisriharsha.me
+  </text>
+
+  <text x="500" y="128" text-anchor="middle"
+        font-size="13" fill="#2f81f7"
+        font-family="ui-monospace, Menlo, Consolas, monospace">
+    linkedin.com/in/sai-sri-harsha-guddati
+  </text>
+
+  <text x="500" y="152" text-anchor="middle"
+        font-size="13" fill="#2f81f7"
+        font-family="ui-monospace, Menlo, Consolas, monospace">
+    github.com/saisriharsha19
+  </text>
+
+  <!-- Right -->
+  <text x="920" y="104" text-anchor="end"
+        font-size="13" font-family="system-ui" fill="#8b949e">
     Reliability
   </text>
 
-  <text x="920" y="124" text-anchor="end"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="13" fill="#8b949e">
+  <text x="920" y="128" text-anchor="end"
+        font-size="13" font-family="system-ui" fill="#8b949e">
     Performance
   </text>
 
-  <text x="920" y="148" text-anchor="end"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto"
-        font-size="13" fill="#8b949e">
+  <text x="920" y="152" text-anchor="end"
+        font-size="13" font-family="system-ui" fill="#8b949e">
     Operability
   </text>
 
-  <!-- Bottom closing -->
-  <text x="500" y="200" text-anchor="middle"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-        font-size="12" fill="#7d8590">
+  <!-- Closing -->
+  <text x="500" y="206" text-anchor="middle"
+        font-size="12"
+        font-family="ui-monospace, Menlo, Consolas, monospace"
+        fill="#7d8590">
     Engineering systems that hold up under real load
   </text>
 
