@@ -46,7 +46,7 @@
 <br/>
 
 <!-- ABOUT CARD -->
-<svg width="100%" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="210" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card { fill:#161b22; stroke:#30363d; stroke-width:1; }
     .h { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif; font-weight:650; fill:#ffffff; }
@@ -73,7 +73,7 @@
 <br/>
 
 <!-- FOCUS: FULLSTACK + BACKEND -->
-<svg width="100%" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card { fill:#161b22; stroke:#30363d; stroke-width:1; }
     .h { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif; font-weight:650; fill:#ffffff; }
@@ -109,7 +109,7 @@
 <br/>
 
 <!-- EXPERIENCE GRID -->
-<svg width="100%" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card { fill:#161b22; stroke:#30363d; stroke-width:1; }
     .h { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif; font-weight:650; fill:#ffffff; }
@@ -182,7 +182,7 @@
 <br/>
 
 <!-- TECH STACK CARD -->
-<svg width="100%" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card { fill:#161b22; stroke:#30363d; stroke-width:1; }
     .h { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif; font-weight:650; fill:#ffffff; }
@@ -209,7 +209,7 @@
 <br/>
 
 <!-- FOOTER -->
-<svg width="100%" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill:#0d1117; }
     .line { stroke:#30363d; stroke-width:1; }
