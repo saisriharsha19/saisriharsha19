@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
-<svg viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
-
+  <title>Sai Sri Harsha Guddati - Developer Card</title>
+  
   <rect width="1000" height="240" fill="#0d1117"/>
 
   <rect x="40" y="24" rx="20" ry="20"
@@ -10,7 +10,6 @@
 
   <line x1="70" y1="70" x2="930" y2="70" stroke="#243042"/>
 
-  <!-- Headings -->
   <text x="80" y="54"
         font-size="18" font-weight="700"
         font-family="system-ui, -apple-system, Segoe UI, Roboto"
@@ -32,10 +31,9 @@
     Focus
   </text>
 
-  <!-- Left -->
   <text x="80" y="100" font-size="14"
         font-family="system-ui" fill="#9aa7b5">
-    Backend & Infrastructure Engineer
+    Backend &amp; Infrastructure Engineer
   </text>
 
   <text x="80" y="124" font-size="13"
@@ -43,26 +41,30 @@
     Gainesville, Florida · 2026
   </text>
 
-  <!-- Center links (visual, copyable) -->
-  <text x="500" y="104" text-anchor="middle"
-        font-size="13" fill="#2f81f7"
-        font-family="ui-monospace, Menlo, Consolas, monospace">
-    saisriharsha.me
-  </text>
+  <a href="https://saisriharsha.me" target="_blank">
+    <text x="500" y="104" text-anchor="middle"
+          font-size="13" fill="#2f81f7"
+          font-family="ui-monospace, Menlo, Consolas, monospace">
+      saisriharsha.me
+    </text>
+  </a>
 
-  <text x="500" y="128" text-anchor="middle"
-        font-size="13" fill="#2f81f7"
-        font-family="ui-monospace, Menlo, Consolas, monospace">
-    linkedin.com/in/sai-sri-harsha-guddati
-  </text>
+  <a href="https://linkedin.com/in/sai-sri-harsha-guddati" target="_blank">
+    <text x="500" y="128" text-anchor="middle"
+          font-size="13" fill="#2f81f7"
+          font-family="ui-monospace, Menlo, Consolas, monospace">
+      linkedin.com/in/sai-sri-harsha-guddati
+    </text>
+  </a>
 
-  <text x="500" y="152" text-anchor="middle"
-        font-size="13" fill="#2f81f7"
-        font-family="ui-monospace, Menlo, Consolas, monospace">
-    github.com/saisriharsha19
-  </text>
+  <a href="https://github.com/saisriharsha19" target="_blank">
+    <text x="500" y="152" text-anchor="middle"
+          font-size="13" fill="#2f81f7"
+          font-family="ui-monospace, Menlo, Consolas, monospace">
+      github.com/saisriharsha19
+    </text>
+  </a>
 
-  <!-- Right -->
   <text x="920" y="104" text-anchor="end"
         font-size="13" font-family="system-ui" fill="#8b949e">
     Reliability
@@ -78,7 +80,6 @@
     Operability
   </text>
 
-  <!-- Closing -->
   <text x="500" y="206" text-anchor="middle"
         font-size="12"
         font-family="ui-monospace, Menlo, Consolas, monospace"
