@@ -1,132 +1,129 @@
-<svg width="800" height="980" viewBox="0 0 800 980" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="1100" viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg">
   <title>Sai Sri Harsha Guddati - Portfolio Details</title>
 
   <defs>
-    <style>
-      .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 20px; fill: #e6edf3; }
-      .subHeader { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 16px; fill: #d2a8ff; }
-      .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #8b949e; line-height: 1.5; }
-      .body-highlight { fill: #c9d1d9; font-weight: 500; }
-      /* URL styling: Monospace, darker color to show it is code/url */
-      .url-text { font-family: 'ui-monospace', 'SFMono-Regular', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', monospace; font-size: 11px; fill: #79c0ff; }
-      .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-    </style>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
     </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e6edf3" />
+      <stop offset="100%" style="stop-color:#a2d2ff" />
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .section-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 24px; fill: url(#headerGrad); letter-spacing: -0.5px; }
+      .job-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 16px; fill: #e6edf3; }
+      .project-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 16px; fill: #58a6ff; }
+      .body-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #c9d1d9; line-height: 1.6; font-weight: 400; }
+      .url-text { font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', monospace; font-size: 11px; fill: #79c0ff; opacity: 0.9; }
+      .divider { stroke: #30363d; stroke-width: 1; opacity: 0.5; }
+    </style>
   </defs>
 
-  <rect width="800" height="980" fill="url(#bgGrad)" />
+  <rect width="850" height="1100" fill="url(#bgGrad)"/>
 
-  <g transform="translate(40, 40)">
-    <text x="0" y="0" class="header">About</text>
-    <line x1="0" y1="15" x2="720" y2="15" stroke="#30363d" stroke-width="1"/>
-    
-    <text x="0" y="45" class="body body-highlight">M.S. Computer Science at the University of Florida (GPA 3.9).</text>
-    
-    <text x="0" y="75" class="body">
-      <tspan x="0" dy="0">I design and operate high-performance backend systems with a focus on</tspan>
-      <tspan x="0" dy="20">distributed infrastructure, observability, and data-intensive workloads.</tspan>
-      <tspan x="0" dy="20">My work includes migrating production services to Kubernetes, optimizing</tspan>
-      <tspan x="0" dy="20">PostgreSQL for high-cardinality datasets, and building RAG pipelines.</tspan>
-    </text>
-    
-    <text x="0" y="155" class="body" style="font-style:italic; fill:#7d8590;">
-      I treat infrastructure as code and documentation as a first-class feature.
-    </text>
+  <g stroke="#388bfd" stroke-width="1.5" fill="#388bfd" opacity="0.12" filter="url(#glow)">
+      <path d="M 50 100 L 200 300 L 800 150 L 700 600 L 100 900" fill="none"/>
+      <circle cx="50" cy="100" r="4" />
+      <circle cx="200" cy="300" r="3" />
+      <circle cx="800" cy="150" r="5" />
+      <circle cx="700" cy="600" r="4" />
+      <circle cx="100" cy="900" r="4" />
+      <line x1="0" y1="50" x2="850" y2="50" stroke-opacity="0.3" stroke-dasharray="10,20"/>
+      <line x1="0" y1="1050" x2="850" y2="1050" stroke-opacity="0.3" stroke-dasharray="10,20"/>
   </g>
 
-  <g transform="translate(40, 230)">
-    <text x="0" y="0" class="header">Experience Highlights</text>
-    <line x1="0" y1="15" x2="720" y2="15" stroke="#30363d" stroke-width="1"/>
+  <g transform="translate(50, 60)">
+    
+    <text x="0" y="0" class="section-title">About</text>
+    
+    <text x="0" y="40" class="body-text" font-weight="600" fill="#e6edf3">M.S. Computer Science at the University of Florida (GPA 3.9).</text>
+    
+    <text x="0" y="70" class="body-text">
+      <tspan x="0" dy="0">I design and operate high-performance backend systems with a focus on distributed</tspan>
+      <tspan x="0" dy="24">infrastructure, observability, and data-intensive workloads. My work includes migrating</tspan>
+      <tspan x="0" dy="24">production services to Kubernetes, optimizing PostgreSQL, and building RAG pipelines.</tspan>
+    </text>
+    
+    <text x="0" y="150" class="body-text" style="font-style:italic; fill:#8b949e;">I treat infrastructure as code and documentation as a first-class feature.</text>
 
-    <text x="0" y="45" class="subHeader" fill="#e6edf3">AI &amp; Platform Engineer Intern — University of Florida IT</text>
-    <text x="0" y="70" class="body">
+    <line x1="0" y1="180" x2="750" y2="180" class="divider"/>
+
+
+    <text x="0" y="230" class="section-title">Experience Highlights</text>
+
+    <text x="0" y="270" class="job-title">AI &amp; Platform Engineer Intern — University of Florida IT</text>
+    <text x="0" y="295" class="body-text">
       <tspan x="0" dy="0">• Built and operated backend services for AI platforms serving 30,000+ active users</tspan>
-      <tspan x="0" dy="20">• Designed Prompt Builder using FastAPI, Next.js, Celery, Redis, PostgreSQL</tspan>
-      <tspan x="0" dy="20">• Reduced P95 latency from 800ms → 480ms using metrics-driven optimization</tspan>
-      <tspan x="0" dy="20">• Migrated services to Kubernetes, cutting deploy time from hours to minutes</tspan>
-      <tspan x="0" dy="20">• Reduced external LLM API cost by 40% via Redis caching in RAG pipelines</tspan>
+      <tspan x="0" dy="24">• Designed Prompt Builder using FastAPI, Next.js, Celery, Redis, PostgreSQL</tspan>
+      <tspan x="0" dy="24">• Reduced P95 latency from 800ms → 480ms using metrics-driven optimization</tspan>
+      <tspan x="0" dy="24">• Migrated services to Kubernetes, cutting deploy time from hours to minutes</tspan>
+      <tspan x="0" dy="24">• Reduced external LLM API cost by 40% via Redis caching in RAG pipelines</tspan>
     </text>
 
-    <text x="0" y="190" class="subHeader" fill="#e6edf3">Software Development Engineer — Tata Consultancy Services</text>
-    <text x="0" y="215" class="body">
+    <text x="0" y="430" class="job-title">Software Development Engineer — Tata Consultancy Services</text>
+    <text x="0" y="455" class="body-text">
       <tspan x="0" dy="0">• Built enterprise semantic search and RAG systems over 10M+ documents</tspan>
-      <tspan x="0" dy="20">• Owned CI/CD pipelines with zero Sev-1 incidents across 12 months</tspan>
-      <tspan x="0" dy="20">• Optimized PostgreSQL and MSSQL queries achieving 50% latency reduction</tspan>
-      <tspan x="0" dy="20">• Delivered production services on Azure using Docker and Kubernetes</tspan>
+      <tspan x="0" dy="24">• Owned CI/CD pipelines with zero Sev-1 incidents across 12 months</tspan>
+      <tspan x="0" dy="24">• Optimized PostgreSQL and MSSQL queries achieving 50% latency reduction</tspan>
+      <tspan x="0" dy="24">• Delivered production services on Azure using Docker and Kubernetes</tspan>
     </text>
-  </g>
 
-  <g transform="translate(40, 540)">
-    <text x="0" y="0" class="header">Selected Projects</text>
-    <line x1="0" y1="15" x2="720" y2="15" stroke="#30363d" stroke-width="1"/>
+    <line x1="0" y1="570" x2="750" y2="570" class="divider"/>
 
-    <g transform="translate(0, 40)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">Vision AI</text>
-      <text x="15" y="45" class="body" font-size="12px">Scalable RAG-driven LLM platform</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">Modular FastAPI, Pinecone vector search,</tspan>
-        <tspan x="15" dy="16">YOLO object detection &amp; observability.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text">github.com/saisriharsha19/Vision-AI</text>
+
+    <text x="0" y="620" class="section-title">Selected Projects</text>
+
+    <g transform="translate(0, 650)">
+      <text x="0" y="0" class="project-title">Vision AI</text>
+      <text x="0" y="25" class="body-text">Scalable RAG-driven LLM platform.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Modular FastAPI, Pinecone, YOLO.</text>
+      <text x="0" y="72" class="url-text">github.com/saisriharsha19/Vision-AI</text>
     </g>
 
-    <g transform="translate(0, 175)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">Distributed Data Scraper</text>
-      <text x="15" y="45" class="body" font-size="12px">High-throughput scraping pipeline</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">Python-based architecture designed for</tspan>
-        <tspan x="15" dy="16">scale, fault tolerance, and ETL separation.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text">github.com/saisriharsha19/data-scraper</text>
+    <g transform="translate(400, 650)">
+      <text x="0" y="0" class="project-title">Compiler Design</text>
+      <text x="0" y="25" class="body-text">Delphi / Pascal Interpreter.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Lexer/Parser via ANTLR, AST execution.</text>
+      <text x="0" y="72" class="url-text">github.com/saisriharsha19/CompilerDesign</text>
     </g>
 
-    <g transform="translate(0, 310)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">ML Redaction System</text>
-      <text x="15" y="45" class="body" font-size="12px">Privacy-preserving NLP system</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">Pipeline for entity detection/anonymization</tspan>
-        <tspan x="15" dy="16">on structured and unstructured text.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text" font-size="9px">github.com/saisriharsha19/ML-Based_Redaction_Name_Prediction_System</text>
+    <g transform="translate(0, 770)">
+      <text x="0" y="0" class="project-title">Distributed Data Scraper</text>
+      <text x="0" y="25" class="body-text">High-throughput scraping pipeline.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Python-based, fault tolerant design.</text>
+      <text x="0" y="72" class="url-text">github.com/saisriharsha19/data-scraper</text>
     </g>
 
-    <g transform="translate(370, 40)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">Compiler Design</text>
-      <text x="15" y="45" class="body" font-size="12px">Delphi / Pascal Interpreter</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">Lexer/Parser via ANTLR, AST execution,</tspan>
-        <tspan x="15" dy="16">symbol tables, and strong typing focus.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text">github.com/saisriharsha19/CompilerDesign</text>
+    <g transform="translate(400, 770)">
+      <text x="0" y="0" class="project-title">Personal Website Backend</text>
+      <text x="0" y="25" class="body-text">Production REST API.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">FastAPI, secure routing, low latency.</text>
+      <text x="0" y="72" class="url-text">github.com/saisriharsha19/personal-website-backend</text>
     </g>
 
-    <g transform="translate(370, 175)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">Portfolio Backend</text>
-      <text x="15" y="45" class="body" font-size="12px">Production REST API</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">FastAPI implementation with secure</tspan>
-        <tspan x="15" dy="16">routing, extensibility, and low latency.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text">github.com/saisriharsha19/personal-website-backend</text>
+    <g transform="translate(0, 890)">
+      <text x="0" y="0" class="project-title">ML-Based Redaction System</text>
+      <text x="0" y="25" class="body-text">Privacy-preserving NLP system.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Entity detection/anonymization.</text>
+      <text x="0" y="72" class="url-text" font-size="10px">github.com/saisriharsha19/ML-Based_Redaction_Name_Prediction_System</text>
     </g>
 
-    <g transform="translate(370, 310)">
-      <rect width="350" height="120" rx="6" class="card-bg"/>
-      <text x="15" y="25" class="subHeader" fill="#58a6ff">Productivity Pal</text>
-      <text x="15" y="45" class="body" font-size="12px">Task and workflow assistant</text>
-      <text x="15" y="65" class="body" font-size="12px" fill="#8b949e">
-        <tspan x="15" dy="0">Backend-first design focusing on</tspan>
-        <tspan x="15" dy="16">automation and modular architecture.</tspan>
-      </text>
-      <text x="15" y="105" class="url-text">github.com/saisriharsha19/productivity-pal</text>
+    <g transform="translate(400, 890)">
+      <text x="0" y="0" class="project-title">Productivity Pal</text>
+      <text x="0" y="25" class="body-text">Task and workflow assistant.</text>
+      <text x="0" y="48" class="body-text" font-size="13px" fill="#8b949e">Backend-first automation design.</text>
+      <text x="0" y="72" class="url-text">github.com/saisriharsha19/productivity-pal</text>
     </g>
 
   </g>
