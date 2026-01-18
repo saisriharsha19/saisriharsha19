@@ -67,7 +67,7 @@
   </g>
 
   <!-- Bottom tagline -->
-  <text x="500" y="158" text-anchor="middle"
+  <text x="500" y="144" text-anchor="middle"
         font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
         font-size="12" fill="#7d8590">
     Building systems for uptime, latency, and long-term maintainability
