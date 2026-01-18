@@ -1,5 +1,5 @@
-<svg width="1000" height="1680" viewBox="0 0 1000 1680" xmlns="http://www.w3.org/2000/svg">
-  <title>Sai Sri Harsha Guddati - Complete Profile</title>
+<svg width="1000" height="1560" viewBox="0 0 1000 1560" xmlns="http://www.w3.org/2000/svg">
+  <title>Sai Sri Harsha Guddati - Profile Body</title>
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -28,9 +28,7 @@
     <style>
       .root-font { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
       
-      .name-title { font-weight: 800; font-size: 38px; fill: url(#headerGrad); letter-spacing: -1px; }
-      .role-subtitle { font-weight: 400; font-size: 18px; fill: #c9d1d9; }
-      
+      /* Section Headers (e.g., "About") */
       .section-header { font-weight: 800; font-size: 26px; fill: url(#headerGrad); letter-spacing: -0.5px; }
       
       .job-title { font-weight: 700; font-size: 17px; fill: #e6edf3; }
@@ -49,7 +47,7 @@
     </style>
   </defs>
 
-  <rect width="1000" height="1680" fill="url(#bgGrad)"/>
+  <rect width="1000" height="1560" fill="url(#bgGrad)"/>
 
   <g stroke="#388bfd" stroke-width="1.5" fill="#388bfd" opacity="0.1" filter="url(#glow)">
       <path d="M 50 100 L 250 300 L 800 150 L 700 600 L 100 900 L 500 1200 L 900 1500" fill="none"/>
@@ -61,10 +59,14 @@
       <circle cx="500" cy="1200" r="5" />
       <circle cx="900" cy="1500" r="4" />
       <line x1="0" y1="50" x2="1000" y2="50" stroke-opacity="0.2" stroke-dasharray="10,20"/>
-      <line x1="0" y1="1250" x2="1000" y2="1250" stroke-opacity="0.2" stroke-dasharray="10,20"/>
+      <line x1="0" y1="800" x2="1000" y2="800" stroke-opacity="0.2" stroke-dasharray="10,20"/>
+      <line x1="0" y1="1400" x2="1000" y2="1400" stroke-opacity="0.2" stroke-dasharray="10,20"/>
   </g>
 
-    <g transform="translate(0, 120)">
+
+  <g transform="translate(60, 50)" class="root-font">
+
+    <g transform="translate(0, 0)">
         <text x="0" y="0" class="section-header">About</text>
         
         <text x="0" y="40" class="body-text" font-weight="600" fill="#e6edf3">M.S. Computer Science at the University of Florida (GPA 3.9).</text>
@@ -78,10 +80,10 @@
         <text x="0" y="150" class="body-text" style="font-style:italic; fill:#8b949e;">I treat infrastructure as code and documentation as a first-class feature.</text>
     </g>
 
-    <line x1="0" y1="310" x2="880" y2="310" class="divider"/>
+    <line x1="0" y1="190" x2="880" y2="190" class="divider"/>
 
 
-    <g transform="translate(0, 360)">
+    <g transform="translate(0, 240)">
         <text x="0" y="0" class="section-header">Experience Highlights</text>
 
         <g transform="translate(0, 40)">
@@ -106,10 +108,10 @@
         </g>
     </g>
 
-    <line x1="0" y1="730" x2="880" y2="730" class="divider"/>
+    <line x1="0" y1="610" x2="880" y2="610" class="divider"/>
 
 
-    <g transform="translate(0, 780)">
+    <g transform="translate(0, 660)">
         <text x="0" y="0" class="section-header">Selected Projects</text>
 
         <g transform="translate(0, 40)">
@@ -161,10 +163,10 @@
         </g>
     </g>
 
-    <line x1="0" y1="1180" x2="880" y2="1180" class="divider"/>
+    <line x1="0" y1="1060" x2="880" y2="1060" class="divider"/>
 
 
-    <g transform="translate(0, 1230)">
+    <g transform="translate(0, 1110)">
         
         <g>
             <text x="0" y="0" class="section-header">Technical Focus</text>
