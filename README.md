@@ -1,11 +1,4 @@
-<div align="center">
-
-<h1 style="font-weight:600; letter-spacing:-0.02em;">Sai Sri Harsha Guddati</h1>
-
-<p style="max-width:720px; font-size:16px; line-height:1.6;">
-Full Stack & AI Infrastructure Engineer building scalable, production-grade systems for LLM-powered applications.
-Focused on distributed systems, performance, reliability, and clean architecture.
-</p>
+![header](./header.svg)
 
 <br/>
 
